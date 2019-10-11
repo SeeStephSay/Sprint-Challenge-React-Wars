@@ -1,5 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import axios from 'axios';
+
+componentDidMount() {
+  axios.get("https://swapi.co/api/people")
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+}
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
