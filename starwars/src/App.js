@@ -1,5 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
+import StarWarsCard from './components/card';
 import './App.css';
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
