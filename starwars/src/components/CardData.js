@@ -36,8 +36,14 @@ const CardData = (props) => {
 			<CardContainer>
 				<ImgCard>
 					<CardH2>{props.title}</CardH2>
+					<CardH4>Stats</CardH4>
+					<CardText>Weight: {props.mass}kg</CardText>
+					<CardText>Height: {props.height}cm</CardText>
+					<CardText>Eye Color: {props.eye_color}</CardText>
 				</ImgCard>
 			</CardContainer>
 		</div>
 	);
 };
+
+export default CardData;
