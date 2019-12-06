@@ -6,8 +6,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
 	google : {
-		families : [ 'Sulphur Point', 'sans-serif' ],
-		families : [ 'Stardos Stencil', 'cursive' ],
+		families : [ 'Sulphur Point', 'sans-serif', 'Orbitron', 'sans-serif' ],
 	},
 });
 

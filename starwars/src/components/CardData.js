@@ -24,17 +24,22 @@ const Card = styled.div`
 `;
 
 const CardH2 = styled.h2`
+	font-family: 'Sulphur Point', sans-serif;
 	font-size: 2rem;
 	color: purple;
 `;
 
 const CardH4 = styled.h4`
+	font-family: 'Orbitron', sans-serif;
+	color: snow;
 	font-size: 1.5rem;
 	margin: -1%;
-	text-decoration: underline overline;
+	text-decoration: underline;
 `;
 
 const CardText = styled.p`
+	font-family: 'Orbitron', sans-serif;
+	color: snow;
 	max-width: 60%;
 	font-size: 1.2rem;
 `;
