@@ -5,7 +5,6 @@ const CardContainer = styled.div`
 	width: 30%;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
 	justify-content: space-evenly;
 	margin: 5%;
 	border: 1px solid purple;
@@ -14,7 +13,7 @@ const CardContainer = styled.div`
 const Card = styled.div`
 	width: 100%;
 	background: teal;
-	color: white;
+	color: snow;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -26,12 +25,15 @@ const Card = styled.div`
 const CardH2 = styled.h2`
 	font-family: 'Sulphur Point', sans-serif;
 	font-size: 2rem;
+	text-shadow: 1px 1px 5px snow;
 	color: purple;
 `;
 
 const CardH4 = styled.h4`
 	font-family: 'Orbitron', sans-serif;
 	color: snow;
+	text-shadow: 1px 1px 3px purple;
+	align-items: center;
 	font-size: 1.5rem;
 	margin: -1%;
 	text-decoration: underline;
