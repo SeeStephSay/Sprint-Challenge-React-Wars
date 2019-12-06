@@ -4,7 +4,7 @@ import CardData from './CardData';
 
 const CharacterCard = () => {
 	const [ character, setCharacter ] = useState([]);
-	console.log(character);
+	// console.log(character);
 
 	useEffect(() => {
 		axios
@@ -19,7 +19,7 @@ const CharacterCard = () => {
 	}, []);
 
 	return (
-		<div>
+		<div className='characterCard'>
 			{character.map((item) => {
 				return (
 					<CardData key={item} title={item.name} mass={item.mass} height={item.height} eyecolor={item.eye_color} />

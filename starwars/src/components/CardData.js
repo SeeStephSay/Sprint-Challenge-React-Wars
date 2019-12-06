@@ -5,9 +5,9 @@ const CardContainer = styled.div`
 	width: 30%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin: 5%;
-	border: 1px solid purple;
+	// border: 1px solid purple;
 `;
 
 const Card = styled.div`
@@ -17,9 +17,9 @@ const Card = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	opacity: .6;
+	opacity: .8;
 	height: 30%;
-	border: 1px solid yellow;
+	// border: 1px solid yellow;
 `;
 
 const CardH2 = styled.h2`
@@ -48,7 +48,7 @@ const CardText = styled.p`
 
 const CardData = (props) => {
 	return (
-		<div>
+		<div className='cardData'>
 			<CardContainer>
 				<Card>
 					<CardH2>{props.title}</CardH2>
